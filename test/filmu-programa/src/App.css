@@ -1,0 +1,110 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:'Open Sans', sans-serif;
+    font-weight:400;
+    background: linear-gradient(110deg, #f2f2f2 50%, gray 90%);
+    color:#222;
+    
+}
+
+.container {
+   
+    margin:0 auto;
+    padding: 0 20px;
+
+    display:flex;
+    height:6em;
+}
+
+.flex-container{display:flex;}
+
+.nav-list {
+    align-items: center;
+    width:100%;
+    justify-content: space-around;
+    border:2px solid black;
+}
+
+.navigacija {
+    justify-content: space-around;
+    width:600px;
+}
+
+.nav-list ul li {
+  text-decoration: none;
+  list-style:none;
+  letter-spacing:1px;
+  
+
+}
+
+.nav-list ul li a{
+    color:black;
+    text-transform: uppercase;
+    font-weight:800
+}
+
+.header-wrapper {
+    width:100%;
+}
+
+.header {
+    display:flex;
+    
+    flex-direction: column;
+    text-align: center;
+    margin:20px;
+    background: linear-gradient(110deg, #f2f2f2 50%, gray 90%);
+    border:1px dotted black;
+}
+
+.header button {
+    background: linear-gradient(110deg, #f2f2f2 50%, gray 90%);
+    border:1px solid black;
+}
+
+.paslaugu-wrapper {
+    padding:20px;
+}
+
+.paslaugosAntr {
+    position:relative;
+    left:10%;
+}
+
+.paslaugos{
+
+padding:  20px;
+display:flex;
+border: 2px dotted black;
+
+
+}
+
+.paslauga {
+  
+    padding:10px;
+    height:150px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+   
+.apiemus-wrapper {
+    padding:20px;
+    border: 2px dotted black;
+    margin:20px;
+}
+
+.apiemus-wrapper h3 {
+    text-align: center;
+    font-weight:600;
+}
+
+.footer-wrapper{
+    margin:20px;
+    padding:20px;
+   
+    
+}
